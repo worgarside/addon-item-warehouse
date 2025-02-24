@@ -187,4 +187,4 @@ SqlStrPath = Annotated[
     str, Path(pattern=r"^[a-zA-Z0-9_]+$", min_length=1, max_length=64)
 ]
 
-__all__ = ["Base", "SessionLocal", "GeneralItemModelType", "SqlStrPath"]
+__all__ = ["Base", "GeneralItemModelType", "SessionLocal", "SqlStrPath"]
